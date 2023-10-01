@@ -24,6 +24,10 @@ input[type=text] {
   background-color: red;
   color: blue;
 }
+#input{
+  background-color:lightsteelblue;
+  border-radius: 5px;
+}
 body{
   background-color:powderblue;
 }
