@@ -2,6 +2,11 @@ html {
   height: 100%;
   width: 100%;
 }
+h1{
+  color:bisque;
+  font-family:cursive, cursive;
+  font:300;
+}
 p {
   font-family: 'Courier New', Courier, monospace;
   background-color:red;
