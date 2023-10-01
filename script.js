@@ -1,20 +1,20 @@
-const btn = document.getElementById('submitBtn');
-const inp = document.getElementById('taskInput'); 
-const addto = document.getElementById('Hello');
+const btn = document.getElementById('enter');
+const inp = document.getElementById('input'); 
+const addto = document.getElementById('tasks');
 btn.addEventListener('click', () => {
   const x = inp.value;
-  if (x === '') {
+  if (x == '') {
     alert("Blank Field... Please write a task before submitting!");
   }
   else{
   const listItem = document.createElement('p');
-  listItem.textContent = x;
-  const deleteButton = document.createElement('button');
-  deleteButton.textContent = 'X';
-  deleteButton.addEventListener('click', () => {
-    addto.removeChild(listItem);
+  task.textContent = x;
+  const crossout = document.createElement('button');
+  crossout.textContent = 'X';
+  crossout.addEventListener('click', () => {
+    addto.removeChild(task);
   });
-  addto.appendChild(listItem);
-  listItem.appendChild(deleteButton);
+  addto.appendChild(task);
+  listItem.appendChild(crossout);
   inp.value = '';
   };})
