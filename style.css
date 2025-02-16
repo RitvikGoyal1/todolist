@@ -17,13 +17,9 @@ p {
 }
 p:hover{
   text-decoration: line-through;
-
   background-color:green;}
-}
-input[type=text] {
-  background-color: red;
-  color: blue;
-}
+
+
 #input{
   background-color:lightsteelblue;
   border-radius: 5px;
@@ -33,6 +29,6 @@ body{
 }
 #enter{
   border-radius:5px;
-  color:crimson;
-  box-shadow: 5px 5px;
+  color:black;
+  box-shadow: 5px 5px navajowhite;
 }
